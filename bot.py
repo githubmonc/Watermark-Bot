@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @FILMWORLDOFFICIA
 
 # This is Telegram Video Watermark Adder Bot's Source Code.
 # I Hardly Made This. So Don't Forget to Give Me Credits.
@@ -8,8 +8,9 @@
 # Edit anything at your own risk!
 
 # Don't forget to help me if I done any mistake in the codes.
-# Support Group: @linux_repo 
-# Bots Channel: @Discovery_Updates
+# Support Group: @FILM_WORL 
+# Bots Channel: @FW_LIBRARI
+
 
 
 import os
@@ -51,7 +52,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/FILMWORLDOFFICIA"), InlineKeyboardButton("Support Group", url="https://t.me/FILM_WORL")], [InlineKeyboardButton("Bots Channel", url="https://t.me/FW_LIBRARI")], [InlineKeyboardButton("FILM WORLD OFFICIAL", url="https://t.me/joinchat/VtTZc5al3Vt0te9_")]]),
 		disable_web_page_preview=True
 	)
 
@@ -446,7 +447,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/FILM_WORL).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -454,7 +455,7 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.message.edit(
 			text=Config.USAGE_WATERMARK_ADDER,
 			parse_mode="Markdown",
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/FILMWORLDOFFICIA"), InlineKeyboardButton("Support Group", url="https://t.me/FILM_WORL")], [InlineKeyboardButton("Bots Channel", url="https://t.me/FW_LIBRARI")]]),
 			disable_web_page_preview=True
 		)
 
@@ -471,7 +472,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/FILM_WORL).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -494,7 +495,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/FILM_WORL).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
